@@ -1,0 +1,12 @@
+const aluno = {
+  nome: "Lucas",
+  nota1: 8,
+  nota2: 6
+};
+
+const calcularMedia = (nota1, nota2) => {
+    return (nota1, nota2) / 2;
+};
+const { nome, nota1, nota2 }= aluno;
+const media = calcularMedia(nota1, nota2);
+console.log(`${nome} o ficou com média a ${media}.`);
